@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" fill="none">
+  <defs>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C29B38" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#C29B38" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="140" cy="140" r="120" fill="url(#goldGlow)"/>
+  <circle cx="140" cy="140" r="110" stroke="#C29B38" stroke-width="1" stroke-dasharray="4 3" opacity="0.6"/>
+  <!-- Regal Welcome Namaste / Butler Cloche Motif -->
+  <g transform="translate(60, 45)" stroke="#162026" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Royal Arch Portal -->
+    <path d="M10 180V80C10 35 45 10 80 10C115 10 150 35 150 80V180" stroke="#C29B38" stroke-width="1.8"/>
+    <path d="M25 180V85C25 50 50 25 80 25C110 25 135 50 135 85V180" stroke="#C29B38" stroke-width="0.8" stroke-dasharray="2 2" opacity="0.5"/>
+    <!-- Head / Turban / Crown -->
+    <path d="M80 50C88 50 94 56 94 64C94 72 88 78 80 78C72 78 66 72 66 64C66 56 72 50 80 50Z" fill="#F8F5EE"/>
+    <path d="M68 56C72 44 88 44 92 56" stroke="#C29B38" stroke-width="2.2"/>
+    <circle cx="80" cy="46" r="3" fill="#C29B38"/>
+    <!-- Suit / Coat -->
+    <path d="M64 88C50 95 40 115 38 145H122C120 115 110 95 96 88L80 110L64 88Z" fill="#162026"/>
+    <path d="M80 88V155" stroke="#F8F5EE" stroke-width="1.5"/>
+    <circle cx="80" cy="120" r="2" fill="#C29B38"/>
+    <circle cx="80" cy="135" r="2" fill="#C29B38"/>
+    <!-- Silver Serving Tray / Cloche in Hand -->
+    <path d="M115 130H155" stroke="#C29B38" stroke-width="2.5"/>
+    <path d="M120 130C120 116 130 110 135 110C140 110 150 116 150 130" fill="#C29B38" opacity="0.85"/>
+    <circle cx="135" cy="107" r="2.5" fill="#C29B38"/>
+    <!-- Golden Key of Hospitality -->
+    <g transform="translate(15, 125)">
+      <circle cx="10" cy="10" r="6" stroke="#C29B38" stroke-width="2" fill="none"/>
+      <path d="M16 10H30M24 10V14M28 10V14" stroke="#C29B38" stroke-width="2"/>
+    </g>
+  </g>
+  <text x="140" y="245" font-family="'PlusJakartaSans', sans-serif" font-size="9" font-weight="700" fill="#C29B38" letter-spacing="3" text-anchor="middle">ATTHITI DEVO BHAVA • ROYAL CONCIERGE</text>
+</svg>

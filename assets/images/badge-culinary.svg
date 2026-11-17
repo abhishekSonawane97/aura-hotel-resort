@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" fill="none">
+  <g transform="translate(4, 8)">
+    <circle cx="16" cy="16" r="15" stroke="#C29B38" stroke-width="1.5" fill="#F8F5EE"/>
+    <path d="M16 10C15 10 14 11 14 12C14 12.5 14.3 13 14.8 13.2C10.5 14 8 18 8 21H24C24 18 21.5 14 17.2 13.2C17.7 13 18 12.5 18 12C18 11 17 10 16 10ZM6 23H26" stroke="#C29B38" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <text x="42" y="20" font-family="'PlusJakartaSans', sans-serif" font-size="10" font-weight="800" fill="#162026" letter-spacing="1">DECCAN DINING</text>
+  <text x="42" y="32" font-family="'PlusJakartaSans', sans-serif" font-size="8" font-weight="600" fill="#5A6672" letter-spacing="1">CULINARY GUILD</text>
+</svg>

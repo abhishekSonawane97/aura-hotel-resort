@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" fill="none">
+  <defs>
+    <radialGradient id="goldGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C29B38" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#C29B38" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="140" cy="140" r="120" fill="url(#goldGlow2)"/>
+  <circle cx="140" cy="140" r="110" stroke="#C29B38" stroke-width="1" stroke-dasharray="4 3" opacity="0.6"/>
+  <!-- Celestial Apsara & Flute / Goblet Motif -->
+  <g transform="translate(70, 40)" stroke="#162026" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Graceful Arch Ring -->
+    <path d="M70 20C97 20 120 43 120 70C120 97 97 120 70 120C43 120 20 97 20 70" stroke="#C29B38" stroke-width="1" stroke-dasharray="3 3"/>
+    <!-- Elegant Mudra Pose -->
+    <circle cx="70" cy="45" r="12" fill="#F8F5EE" stroke="#162026" stroke-width="1.8"/>
+    <!-- Headpiece / Crown -->
+    <path d="M62 38C66 30 74 30 78 38" stroke="#C29B38" stroke-width="2"/>
+    <circle cx="70" cy="27" r="3" fill="#C29B38"/>
+    <!-- Torso & Saree Drape -->
+    <path d="M70 57C70 70 65 85 75 105C80 115 88 135 88 150M70 65C60 78 45 90 35 90M70 65C85 72 105 75 115 65" stroke="#162026" stroke-width="2"/>
+    <!-- Graceful Hands / Mudra -->
+    <circle cx="33" cy="90" r="4" fill="#C29B38"/>
+    <circle cx="117" cy="65" r="4" fill="#C29B38"/>
+    <!-- Flowing Saree Pleats -->
+    <path d="M60 110C45 130 50 160 55 170M75 105C70 130 75 155 80 170M78 120C90 140 95 160 100 170" stroke="#C29B38" stroke-width="1.4"/>
+    <!-- Golden Lotus Base -->
+    <g transform="translate(40, 160)">
+      <path d="M30 0C20 10 0 15 0 15C0 15 20 18 30 25C40 18 60 15 60 15C60 15 40 10 30 0Z" fill="#C29B38" opacity="0.9"/>
+    </g>
+  </g>
+  <text x="140" y="245" font-family="'PlusJakartaSans', sans-serif" font-size="9" font-weight="700" fill="#C29B38" letter-spacing="3" text-anchor="middle">ROYAL CULINARY &amp; CELESTIAL APSARA</text>
+</svg>

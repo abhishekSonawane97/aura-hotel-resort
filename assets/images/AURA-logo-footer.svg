@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <g transform="translate(6, 8)">
+    <path d="M22 2C10.954 2 2 10.954 2 22V38H42V22C42 10.954 33.046 2 22 2Z" stroke="#C29B38" stroke-width="2" fill="none"/>
+    <path d="M22 12C22 12 16 19 16 25C16 28.3 18.7 31 22 31C25.3 31 28 28.3 28 25C28 19 22 12 22 12Z" fill="#C29B38"/>
+  </g>
+  <text x="58" y="34" font-family="'ItalianPlateNo4', 'Syne', sans-serif" font-size="32" font-weight="800" fill="#162026" letter-spacing="4">AURA</text>
+  <text x="175" y="24" font-family="'LateSerif', 'Playfair Display', serif" font-size="12" font-style="italic" fill="#C29B38">HOTEL &amp; RESORT</text>
+  <text x="175" y="38" font-family="'PlusJakartaSans', sans-serif" font-size="9.5" font-weight="700" fill="#162026" letter-spacing="2.5">AURANGABAD • MAHARASHTRA</text>
+</svg>

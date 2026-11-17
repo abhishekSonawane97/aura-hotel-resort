@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA - Luxury Hotel & Resort | Aurangabad (Chhatrapati Sambhajinagar), Maharashtra</title>
+  <meta name="description" content="Experience avant-garde luxury and Deccan heritage at AURA Hotel & Resort, Aurangabad. 5-star suites, Ayurvedic spa, fine dining, and curated excursions to UNESCO World Heritage Ajanta & Ellora Caves.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/AU.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- =======================================================================
+       Fullscreen Navigation Drawer
+       ======================================================================= -->
+  <aside class="main-drawer" id="mainDrawer" aria-label="Main Navigation Drawer">
+    <div class="drawer-header">
+      <div class="container">
+        <a href="#" class="site-logo-link">
+          <img src="assets/images/AURA-logo-dark.svg" alt="AURA Hotel Logo" class="site-logo">
+        </a>
+        <button class="drawer-close" id="drawerClose" aria-label="Close Menu">
+          <span>Close</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18M6 6L18 18" stroke="#293A4A" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="drawer-body">
+      <div class="container">
+        <div class="drawer-grid">
+          <ul class="drawer-nav">
+            <li class="drawer-nav-item">
+              <a href="index.html" class="drawer-nav-link">
+                <span>Home</span>
+              </a>
+              <img src="assets/images/Avant_Garde_BG.gif" alt="Home" class="drawer-nav-preview">
+            </li>
+            <li class="drawer-nav-item">
+              <a href="rooms.html" class="drawer-nav-link">
+                <span>Rooms & Luxury Suites</span>
+              </a>
+              <img src="assets/images/Residences_BG-1.gif" alt="Suites Preview" class="drawer-nav-preview">
+            </li>
+            <li class="drawer-nav-item">
+              <a href="events.html" class="drawer-nav-link">
+                <span>Weddings & Conclaves</span>
+              </a>
+              <img src="assets/images/Day_Night_BG-1.gif" alt="Events Preview" class="drawer-nav-preview">
+            </li>
+            <li class="drawer-nav-item">
+              <a href="offers.html" class="drawer-nav-link">
+                <span>Curated Offers & Packages</span>
+              </a>
+              <img src="assets/images/Diners-1.gif" alt="Offers Preview" class="drawer-nav-preview">
+            </li>
+            <li class="drawer-nav-item">
+              <a href="contact.html" class="drawer-nav-link">
+                <span>Contact & Concierge</span>
+              </a>
+              <img src="assets/images/shopper-2.png" alt="Contact Preview" class="drawer-nav-preview">
+            </li>
+            <li class="drawer-nav-item">
+              <a href="#" class="drawer-nav-link" data-open-booking>
+                <span>Book a Stay</span>
+              </a>
+              <img src="assets/images/hotel-1.jpg" alt="Reservation" class="drawer-nav-preview">
+            </li>
+          </ul>
+
+          <div class="drawer-info">
+            <div class="drawer-info-block">
+              <h4>Resort Location</h4>
+              <p>
+                AURA Hotel & Luxury Resort<br>
+                Jalna Road, CIDCO<br>
+                Chhatrapati Sambhajinagar (Aurangabad)<br>
+                Maharashtra 431005, India
+              </p>
+            </div>
+            <div class="drawer-info-block">
+              <h4>Direct Reservations & Concierge</h4>
+              <p>
+                <a href="tel:02402488800">+91 (0240) 248 8800</a><br>
+                <a href="tel:919823045678">+91 98230 45678 (WhatsApp)</a><br>
+                <a href="mailto:reservations@aurahotels.in">reservations@aurahotels.in</a>
+              </p>
+            </div>
+            <div class="drawer-info-block">
+              <h4>Guest Timings</h4>
+              <p>
+                Check-in: 14:00 hrs<br>
+                Check-out: 12:00 hrs<br>
+                24/7 Airport Luxury Transfers Available
+              </p>
+            </div>
+            <div class="drawer-info-block">
+              <h4>Social & Journal</h4>
+              <p><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram @aurahotel_aurangabad</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =======================================================================
+       Header & Top Navigation
+       ======================================================================= -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="header-left">
+          <a href="#" class="site-logo-link" aria-label="AURA Home">
+            <img src="assets/images/AURA-white-logo.svg" alt="AURA Hotel" class="site-logo logo--white">
+            <img src="assets/images/AURA-logo-dark.svg" alt="AURA Hotel" class="site-logo logo--dark">
+          </a>
+          <button class="nav-trigger" id="navTrigger" aria-label="Open Menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 18V16H21V19L3 18ZM3 14V11H21V13L3 14ZM3 8V6H21V9L3 8Z" fill="#FFFFFF"/>
+            </svg>
+            <span>Menu</span>
+          </button>
+        </div>
+
+        <div class="header-right">
+          <ul class="header-nav-list">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="rooms.html" class="nav-link">Suites</a></li>
+            <li><a href="events.html" class="nav-link">Weddings & Events</a></li>
+            <li><a href="offers.html" class="nav-link">Offers</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="dropdown-wrap">
+              <a href="#" class="nav-link">Resort Guide ▾</a>
+              <div class="dropdown-menu">
+                <a href="#rooms" class="dropdown-item">
+                  <span>Resort Brochure</span>
+                  <span>PDF</span>
+                </a>
+                <a href="#dining" class="dropdown-item">
+                  <span>Fine Dining Menu</span>
+                  <span>PDF</span>
+                </a>
+                <a href="#spa" class="dropdown-item">
+                  <span>Ayurvedic Spa Menu</span>
+                  <span>PDF</span>
+                </a>
+                <a href="#excursions" class="dropdown-item">
+                  <span>Ajanta & Ellora Guide</span>
+                  <span>PDF</span>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="dropdown-wrap">
+            <span class="dropdown-lang">EN ▾</span>
+            <div class="dropdown-menu" style="min-width: 120px;">
+              <a href="#" class="dropdown-item">English</a>
+              <a href="#" class="dropdown-item">मराठी (Marathi)</a>
+              <a href="#" class="dropdown-item">हिन्दी (Hindi)</a>
+              <a href="#" class="dropdown-item">Français</a>
+            </div>
+          </div>
+
+          <button class="btn-inquire" data-open-booking>Book a Stay</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =======================================================================
+       Hero Video & Quick Booking Bar Section
+       ======================================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-video-wrap">
+      <video class="hero-video" autoplay loop muted playsinline preload="auto">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+        <!-- Online fallback -->
+        <source src="https://duoswynwood.com/wp-content/uploads/2026/04/Duos-Wynwood-Exterior-Mobile.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <span class="hero-badge">Aurangabad • Maharashtra • India</span>
+      <h1 class="hero-title">AURA RESORT & SPA</h1>
+      <p class="hero-subtitle">Gateway to UNESCO World Heritage Ajanta & Ellora Caves</p>
+
+      <!-- Quick Hotel Booking Bar -->
+      <form class="hero-booking-bar" id="heroBookingBar">
+        <div class="booking-item">
+          <label for="barCheckIn">Check-In</label>
+          <input type="date" id="barCheckIn" required>
+        </div>
+        <div class="booking-divider"></div>
+
+        <div class="booking-item">
+          <label for="barCheckOut">Check-Out</label>
+          <input type="date" id="barCheckOut" required>
+        </div>
+        <div class="booking-divider"></div>
+
+        <div class="booking-item">
+          <label for="barGuests">Guests</label>
+          <select id="barGuests">
+            <option value="1">1 Adult</option>
+            <option value="2" selected>2 Adults</option>
+            <option value="3">2 Adults + 1 Child</option>
+            <option value="4">4 Guests (Family)</option>
+          </select>
+        </div>
+        <div class="booking-divider"></div>
+
+        <div class="booking-item">
+          <label for="barRoomSelect">Suite Preference</label>
+          <select id="barRoomSelect">
+            <option value="deluxe-room">Deluxe Garden Room</option>
+            <option value="courtyard-suite">Courtyard Heritage Suite</option>
+            <option value="junior-suite">Junior Suite Deluxe</option>
+            <option value="royal-suite">Royal Ajanta Suite</option>
+            <option value="presidential-villa">Presidential Villa</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-book-now">Check Rates</button>
+      </form>
+    </div>
+
+    <a href="#about" class="hero-scroll-btn" aria-label="Scroll Down">
+      <span style="font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;">Explore</span>
+      <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 0L7 22.5M7 22.5C7 22.5 7 15.1351 0 15.1351M7 22.5C7 22.5 7 15.1351 14 15.1351" stroke="#FFFFFF" stroke-width="1.5"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- =======================================================================
+       Brand Intro Section ("Live Artfully & Stay Luxuriously")
+       ======================================================================= -->
+  <section class="brand-intro-section fade-in-section" id="about">
+    <div class="container">
+      <div class="brand-intro-wrapper">
+        <div class="brand-intro-letter">
+          <img src="assets/images/AU.svg" alt="AU" style="width: 100%;">
+        </div>
+
+        <div class="brand-intro-center">
+          <div class="brand-intro-gif-wrap">
+            <img src="assets/images/Avant_Garde_BG.gif" alt="AURA Resort Artistry" class="brand-intro-gif">
+          </div>
+
+          <h2 class="brand-intro-title">
+            <span class="headline-sans">Live Artfully</span>
+            <span class="headline-serif">& Stay Luxuriously</span>
+          </h2>
+
+          <p class="brand-intro-desc">
+            Nestled in the historic city of Aurangabad (Chhatrapati Sambhajinagar), AURA offers an intimate sanctuary of <em>49 bespoke heritage rooms & villas</em>. Inspired by ancient rock-cut craftsmanship and modern Deccan opulence, immerse in world-class hospitality, <em>Ayurvedic wellness</em>, and curated private expeditions to <em>Ajanta & Ellora</em>.
+          </p>
+        </div>
+
+        <div class="brand-intro-letter">
+          <img src="assets/images/RA.svg" alt="RA" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       Feature Split 1: Resort Architecture & Design
+       ======================================================================= -->
+  <section class="feature-split-section fade-in-section" id="architecture">
+    <div class="container">
+      <div class="feature-split-grid">
+        <div class="feature-split-media">
+          <img src="assets/images/Duos_Wynwood_Lobby.jpg" alt="AURA Grand Lobby & Lounge">
+        </div>
+
+        <div class="feature-split-content">
+          <img src="assets/images/Man-Luggage-v2-.gif" alt="Concierge Welcome" class="feature-split-illustration">
+          <span class="feature-split-eyebrow">Hospitality & Architecture</span>
+          <h2 class="feature-split-title">Heritage Meets<br>Modern Luxury</h2>
+          <p class="feature-split-text">
+            Rooted in the timeless artistry of Maharashtra's historic capitals, AURA combines basalt stone masonry, hand-chiseled jali lattices, and soothing water courtyards with contemporary five-star indulgence.
+          </p>
+          <button class="btn-luxury" data-open-booking>
+            <span>Reserve Your Sanctuary</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       The Hotel Suites Showcase
+       ======================================================================= -->
+  <section class="hotel-suites-section fade-in-section" id="rooms">
+    <div class="container">
+      <div class="suites-header">
+        <span class="suites-eyebrow">Accommodations</span>
+        <h2 class="suites-title">Rooms & Suites</h2>
+        <p style="font-size: 1.1rem; color: var(--bg-sand); margin-top: 10px;">Each room is a serene oasis tailored with plush Egyptian linens, bespoke furniture, and private verandas.</p>
+      </div>
+
+      <div class="suites-composition">
+        <div class="suites-comp-small">
+          <img src="assets/images/hotel-1.jpg" alt="Resort Courtyard Elevation">
+        </div>
+        <div class="suites-comp-large">
+          <img src="assets/images/Duos_Wynwood_Bedroom.jpg" alt="Royal Suite Master Bedroom">
+          <div class="suites-comp-caption">
+            <h4>Bespoke Deccan Interiors</h4>
+            <p>Hand-carved teak accents, private plunge terraces, and marble rain showers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       Interactive Rooms & Suites Selector
+       ======================================================================= -->
+  <section class="floorplans-section fade-in-section" id="suite-selector">
+    <div class="container">
+      <div class="section-head">
+        <h2>Choose Your Stay</h2>
+        <p>From intimate garden retreats to grand presidential villas with dedicated butler service.</p>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="floorplan-tabs">
+        <button class="floorplan-tab-btn active" data-room="deluxe-room">Deluxe Garden Room</button>
+        <button class="floorplan-tab-btn" data-room="courtyard-suite">Courtyard Suite</button>
+        <button class="floorplan-tab-btn" data-room="junior-suite">Junior Suite Deluxe</button>
+        <button class="floorplan-tab-btn" data-room="royal-suite">Royal Ajanta Suite</button>
+        <button class="floorplan-tab-btn" data-room="presidential-villa">Presidential Villa</button>
+      </div>
+
+      <!-- Active Room Display Card -->
+      <div class="floorplan-card" id="activeFloorplanCard">
+        <div class="floorplan-preview">
+          <img src="assets/images/Studio_suite.png" alt="Deluxe Room Plan" id="roomImage">
+        </div>
+
+        <div class="floorplan-details">
+          <span id="roomType" style="font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-navy-muted); font-weight: 600;">King Bed / 2 Guests</span>
+          <h3 class="floorplan-title" id="roomTitle">Deluxe Garden Room</h3>
+          <p class="floorplan-desc" id="roomDesc">
+            An elegant sanctuary overlooking lush subtropical courtyards, featuring handcrafted teak millwork, bespoke artisanal textiles, and a private sunrise balcony.
+          </p>
+
+          <div class="floorplan-stats-grid">
+            <div class="stat-item">
+              <span class="stat-label">Total Area</span>
+              <span class="stat-value" id="roomTotal">390 SQ FT</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Interior</span>
+              <span class="stat-value" id="roomInterior">340 SQ FT</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Terrace</span>
+              <span class="stat-value" id="roomTerrace">50 SQ FT</span>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <span style="font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-navy-muted);">View / Exposure:</span>
+            <strong id="roomExposure" style="font-size: 0.95rem; margin-left: 6px; color: var(--color-navy);">Private Garden View</strong>
+          </div>
+
+          <ul class="floorplan-features" id="roomFeatures">
+            <li>Custom king pillow-top mattress with 500-thread Egyptian cotton linen</li>
+            <li>Spa marble bathroom with rain shower & Kama Ayurveda amenities</li>
+            <li>Complimentary high-speed Wi-Fi & 55" 4K Smart Entertainment System</li>
+            <li>Gourmet Illy coffee machine & artisanal Maharastrian tea bar</li>
+          </ul>
+
+          <div style="margin-bottom: 24px;">
+            <span style="font-size: 0.8rem; text-transform: uppercase; color: var(--color-navy-muted);">Nightly Rate:</span>
+            <span id="roomPrice" style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--color-navy); margin-left: 8px;">₹9,500 / night</span>
+            <span style="font-size: 0.8rem; color: var(--color-navy-muted); margin-left: 6px;">(inclusive of gourmet breakfast)</span>
+          </div>
+
+          <div class="floorplan-actions">
+            <button class="btn-luxury" id="btnBookSelectedRoom" data-open-booking data-preselect-room="deluxe-room">Book This Suite</button>
+            <a href="#dining" class="btn-luxury btn-luxury-outline">View Inclusions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       Feature Split 2: Dining & Cocktail Salon ("Dine & Unwind")
+       ======================================================================= -->
+  <section class="feature-split-section theme-sage fade-in-section" id="dining">
+    <div class="container">
+      <div class="feature-split-grid reverse">
+        <div class="feature-split-media">
+          <img src="assets/images/Duos_Wynwood_Lobby_Bar.jpg" alt="AURA Cocktail Salon & Lounge Bar">
+        </div>
+
+        <div class="feature-split-content">
+          <img src="assets/images/Dancer_2_PINK.gif" alt="Artful Dining" class="feature-split-illustration" style="width: 140px;">
+          <span class="feature-split-eyebrow">Culinary Excellence</span>
+          <h2 class="feature-split-title">Dine &<br>Unwind</h2>
+          <p class="feature-split-text">
+            Savor centuries of Deccan culinary heritage reimagined with contemporary flair. From fragrant Royal Naan Qalia and Marathwada slow-cooked specialties to world gastronomy and botanical cocktails in our courtyard salon.
+          </p>
+          <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+            <button class="btn-luxury" data-open-booking>
+              <span>Reserve a Table</span>
+              <span>→</span>
+            </button>
+            <a href="#spa" class="btn-luxury btn-luxury-outline">Explore Spa</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       Ayurvedic Spa & Wellness Section
+       ======================================================================= -->
+  <section class="feature-split-section fade-in-section" id="spa" style="background-color: var(--bg-sand-light);">
+    <div class="container">
+      <div class="feature-split-grid">
+        <div class="feature-split-media">
+          <img src="assets/images/Duos_Wynwood_Lobby.jpg" alt="AURA Ayurvedic Wellness Sanctuary">
+        </div>
+
+        <div class="feature-split-content">
+          <img src="assets/images/Diners-1.gif" alt="Holistic Wellness" class="feature-split-illustration" style="width: 160px; border-radius: 8px;">
+          <span class="feature-split-eyebrow">Sanctuary of Serenity</span>
+          <h2 class="feature-split-title">Ayurvedic Spa &<br>Wellness</h2>
+          <p class="feature-split-text">
+            Rebalance mind, body, and spirit in our tranquil treatment pavilions. Enjoy traditional Abhyanga therapies, aromatic herbal steam rooms, outdoor vitality pools, and morning yoga sessions in our lush herb gardens.
+          </p>
+          <button class="btn-luxury" data-open-booking>
+            <span>Book a Treatment</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       Neighborhood & Excursions ("Ajanta & Ellora")
+       ======================================================================= -->
+  <section class="locations-section fade-in-section" id="excursions">
+    <div class="container">
+      <div class="locations-grid">
+        <div class="locations-info">
+          <h2 class="locations-title">
+            <span class="num">24</span> <span class="amp">& 7</span>
+          </h2>
+          <p class="locations-desc">
+            Immerse yourself in UNESCO World Heritage sites, medieval citadels, and centuries of artistic genius right at your doorstep in Aurangabad.
+          </p>
+          <img src="assets/images/Palm.gif" alt="Palm Illustration" class="locations-palm-art">
+        </div>
+
+        <div class="neighborhood-cards">
+          <div class="neighborhood-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/Wynwood.jpg" alt="Ellora Caves Kailash Temple">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">UNESCO Heritage • 28 km</span>
+              <h3 class="card-title">Ellora Caves</h3>
+              <p class="card-desc">The monumental 8th-century monolithic Kailash Temple, carved top-down from a single basalt mountain cliff.</p>
+            </div>
+          </div>
+
+          <div class="neighborhood-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/Design-District.jpg" alt="Ajanta Buddhist Caves">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">Ancient Art • 102 km</span>
+              <h3 class="card-title">Ajanta Caves</h3>
+              <p class="card-desc">30 rock-cut Buddhist temples dating from 2nd century BCE with world-celebrated ancient mural frescoes.</p>
+            </div>
+          </div>
+
+          <div class="neighborhood-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/midtown.jpg" alt="Bibi Ka Maqbara">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">Mughal Jewel • 6 km</span>
+              <h3 class="card-title">Bibi Ka Maqbara</h3>
+              <p class="card-desc">The famous 'Taj of the Deccan', featuring marble domes, charbagh gardens, and intricate lattice jali stonework.</p>
+            </div>
+          </div>
+
+          <div class="neighborhood-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/downtown.jpg" alt="Daulatabad Fort">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">Medieval Citadel • 16 km</span>
+              <h3 class="card-title">Daulatabad Fort</h3>
+              <p class="card-desc">One of India's most formidable 12th-century hill fortifications with subterranean defense mazes.</p>
+            </div>
+          </div>
+
+          <div class="neighborhood-card">
+            <div class="card-img-wrap">
+              <img src="assets/images/Brickell.jpg" alt="Himroo & Paithani Silk Weaving">
+            </div>
+            <div class="card-body">
+              <span class="card-tag">Artisanal Craft • 4 km</span>
+              <h3 class="card-title">Himroo & Paithani</h3>
+              <p class="card-desc">Centuries-old royal weaving traditions creating gold-threaded royal Paithani sarees and Persian motifs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       Footer Highlights Bar
+       ======================================================================= -->
+  <div class="footer-highlights-bar">
+    <div class="container">
+      <div class="highlights-grid">
+        <a href="#about" class="highlight-item">
+          <img src="assets/images/Day_Night_BG-1.gif" alt="The Resort" class="highlight-thumb">
+          <span class="highlight-title">The Resort Experience</span>
+        </a>
+        <a href="#rooms" class="highlight-item">
+          <img src="assets/images/Residences_BG-1.gif" alt="Suites" class="highlight-thumb">
+          <span class="highlight-title">Rooms & Suites</span>
+        </a>
+        <a href="#dining" class="highlight-item">
+          <img src="assets/images/Diners-1.gif" alt="Dining" class="highlight-thumb">
+          <span class="highlight-title">Dining & Cocktail Lounge</span>
+        </a>
+        <a href="#excursions" class="highlight-item">
+          <img src="assets/images/shopper-2.png" alt="Excursions" class="highlight-thumb">
+          <span class="highlight-title">Ajanta & Ellora Tours</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       Site Footer
+       ======================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <img src="assets/images/AURA-logo-footer.svg" alt="AURA Hotel Aurangabad" class="footer-logo">
+          <p class="footer-tagline">
+            An ultra-luxury boutique resort and wellness sanctuary in Aurangabad (Chhatrapati Sambhajinagar), Maharashtra. Celebrating the architectural wonders of the Deccan.
+          </p>
+          <div style="display: flex; gap: 12px; margin-top: 10px;">
+            <span style="font-size: 0.8rem; background: rgba(255,255,255,0.5); padding: 4px 12px; border-radius: 20px; font-weight: 600;">5-Star Luxury Resort</span>
+            <span style="font-size: 0.8rem; background: rgba(255,255,255,0.5); padding: 4px 12px; border-radius: 20px; font-weight: 600;">Ayurvedic Certified</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resort Navigation</h4>
+          <ul>
+            <li><a href="#about">The Resort Story</a></li>
+            <li><a href="#rooms">Rooms & Luxury Suites</a></li>
+            <li><a href="#dining">Fine Dining & Cocktails</a></li>
+            <li><a href="#spa">Ayurvedic Spa & Wellness</a></li>
+            <li><a href="#excursions">Ajanta & Ellora Excursions</a></li>
+            <li><a href="#" data-open-booking>Book a Room</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Location & Transit</h4>
+          <p style="font-size: 0.9rem; color: var(--color-navy); line-height: 1.6;">
+            <strong>AURA Hotel & Luxury Resort</strong><br>
+            Jalna Road, CIDCO<br>
+            Chhatrapati Sambhajinagar (Aurangabad)<br>
+            Maharashtra 431005, India<br><br>
+            <strong>Airport:</strong> 5 km (Chhatrapati Sambhajinagar IXU)<br>
+            <strong>Railway Station:</strong> 7 km
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Reservations & Concierge</h4>
+          <ul>
+            <li><a href="tel:02402488800">+91 (0240) 248 8800</a></li>
+            <li><a href="tel:919823045678">+91 98230 45678 (WhatsApp)</a></li>
+            <li><a href="mailto:reservations@aurahotels.in">reservations@aurahotels.in</a></li>
+            <li><a href="mailto:concierge@aurahotels.in">concierge@aurahotels.in</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Hotel Amenities & Accreditations -->
+            <!-- Hotel Hospitality Accreditation & Privilege Badges -->
+      <div class="footer-partners">
+        <img src="assets/images/badge-fivestar.svg" alt="5-Star Luxury Heritage Resort" class="partner-badge-img">
+        <img src="assets/images/badge-unesco.svg" alt="UNESCO Heritage Ajanta & Ellora" class="partner-badge-img">
+        <img src="assets/images/badge-ayurveda.svg" alt="Certified Ayurvedic Spa" class="partner-badge-img">
+        <img src="assets/images/badge-concierge.svg" alt="Royal Concierge Guild" class="partner-badge-img">
+        <img src="assets/images/badge-culinary.svg" alt="Deccan Culinary Guild" class="partner-badge-img">
+      </div>
+
+      <!-- Hotel Policies Accordion -->
+      <div class="footer-legal">
+        <p>© 2026 AURA Hospitality Private Limited, Aurangabad, Maharashtra. All rights reserved.</p>
+        <span class="footer-accordion-toggle" data-accordion-toggle="policiesContent" data-show-text="Hotel Policies & Check-In Details +" data-hide-text="Hide Policies -">Hotel Policies & Check-In Details +</span>
+        <div class="footer-accordion-content" id="policiesContent">
+          <strong>Check-in & Check-out:</strong> Standard check-in is 14:00 hrs and check-out is 12:00 hrs. Early check-in or late check-out is subject to availability and may incur nominal charges. Government-issued photo identification (Aadhaar, Passport, or Voter ID) is required at check-in for all adult guests.<br><br>
+          <strong>Cancellation Policy:</strong> Free cancellation up to 48 hours prior to arrival. Cancellations made within 48 hours of check-in date are subject to one night room charge plus applicable taxes.<br><br>
+          <strong>Children & Extra Beds:</strong> Children under 6 years stay complimentary using existing bedding. Extra rollaway beds are available upon advance request.<br><br>
+          <strong>Heritage Excursions:</strong> Private guided tours to Ajanta and Ellora Caves include luxury AC vehicle, authorized Archaeological Survey of India (ASI) guide, monument permits, and gourmet packed refreshments.
+        </div>
+
+        <span class="footer-accordion-toggle" data-accordion-toggle="privacyContent" data-show-text="Privacy Policy +" data-hide-text="Hide Privacy -">Privacy Policy +</span>
+        <div class="footer-accordion-content" id="privacyContent">
+          AURA Resort respects the privacy of our esteemed guests. All personal details collected during booking are encrypted and used strictly for room reservations, concierge personalization, and regulatory reporting as mandated by the Government of India. We never sell or disclose guest data to third-party marketing entities.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =======================================================================
+       Hotel Booking & Reservation Drawer Modal
+       ======================================================================= -->
+  <div class="modal-overlay" id="bookingOverlay"></div>
+
+  <div class="inquiry-drawer" id="bookingDrawer" aria-modal="true" role="dialog">
+    <div class="inquiry-drawer-header">
+      <h3 class="inquiry-drawer-title">Book Your Stay</h3>
+      <button class="inquiry-close" id="bookingClose" aria-label="Close Booking Drawer">✕</button>
+    </div>
+
+    <form class="inquiry-form" id="bookingForm">
+      <p style="font-size: 0.92rem; color: var(--color-navy-muted); margin-bottom: 8px;">
+        Reserve your suite at AURA Hotel & Resort, Aurangabad. Best rate guaranteed with complimentary breakfast and Wi-Fi.
+      </p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="bookCheckIn">Check-In Date *</label>
+          <input type="date" id="bookCheckIn" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="bookCheckOut">Check-Out Date *</label>
+          <input type="date" id="bookCheckOut" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="bookGuests">Number of Guests *</label>
+          <select id="bookGuests" class="form-control">
+            <option value="1">1 Guest</option>
+            <option value="2" selected>2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests (Family)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="bookRoomType">Room / Suite Category *</label>
+          <select id="bookRoomType" class="form-control">
+            <option value="deluxe-room">Deluxe Garden Room (₹9,500 / night)</option>
+            <option value="courtyard-suite">Courtyard Suite (₹14,500 / night)</option>
+            <option value="junior-suite">Junior Suite Deluxe (₹19,500 / night)</option>
+            <option value="royal-suite">Royal Ajanta Suite (₹28,000 / night)</option>
+            <option value="presidential-villa">Presidential Villa (₹48,000 / night)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="guestFirstName">First Name *</label>
+          <input type="text" id="guestFirstName" class="form-control" placeholder="Priya" required>
+        </div>
+        <div class="form-group">
+          <label for="guestLastName">Last Name *</label>
+          <input type="text" id="guestLastName" class="form-control" placeholder="Sharma" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="guestEmail">Email Address *</label>
+          <input type="email" id="guestEmail" class="form-control" placeholder="priya.sharma@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="guestPhone">Phone / WhatsApp *</label>
+          <input type="tel" id="guestPhone" class="form-control" placeholder="+91 98000 00000" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="specialRequests">Special Requests / Excursion Preferences</label>
+        <textarea id="specialRequests" class="form-control" placeholder="E.g., Airport pick-up required, dietary preferences, Ajanta & Ellora guided tour inquiry..."></textarea>
+      </div>
+
+      <button type="submit" class="form-submit-btn">Confirm Reservation</button>
+    </form>
+
+    <div class="inquiry-success" id="bookingSuccess">
+      <div class="inquiry-success-icon">✓</div>
+      <h3 style="font-family: var(--font-display); font-size: 1.6rem; color: var(--color-navy); margin-bottom: 8px; text-transform: uppercase;">Reservation Confirmed</h3>
+      <p style="font-size: 0.95rem; font-weight: 600; color: var(--color-navy); margin-bottom: 12px;">
+        Booking Reference: <span id="bookingConfNumber" style="font-family: var(--font-display); color: #B3541E;">AURA-8492</span>
+      </p>
+      <p style="color: var(--color-navy-muted); font-size: 0.92rem; margin-bottom: 24px; line-height: 1.6;">
+        Thank you for booking your stay at AURA Hotel & Resort, Aurangabad. A detailed confirmation voucher and concierge itinerary has been sent to your email.
+      </p>
+      <button class="btn-luxury" id="bookingReset" style="margin: 0 auto;">Make Another Booking</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

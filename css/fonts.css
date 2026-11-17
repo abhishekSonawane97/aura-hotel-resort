@@ -1,0 +1,35 @@
+/* DUOS Wynwood Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@1,400;1,600;1,700&family=Syne:wght@500;700;800&display=swap');
+
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('../assets/fonts/PlusJakartaSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sud';
+  src: url('../assets/fonts/Sud.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItalianPlateNo4';
+  src: url('../assets/fonts/ItalianPlateNo4-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LateSerif';
+  src: url('../assets/fonts/LateSerif-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

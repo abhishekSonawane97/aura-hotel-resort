@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect x="10" y="10" width="180" height="140" stroke="#C29B38" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.3"/>
+  <text x="15" y="128" font-family="'ItalianPlateNo4', 'Syne', sans-serif" font-size="132" font-weight="900" fill="#162026" letter-spacing="-3">RA</text>
+  <circle cx="30" cy="30" r="6" fill="#C29B38"/>
+</svg>

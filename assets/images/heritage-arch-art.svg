@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" fill="none">
+  <defs>
+    <radialGradient id="portalGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C29B38" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C29B38" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="360" height="280" rx="12" fill="#162026"/>
+  <circle cx="180" cy="140" r="120" fill="url(#portalGlow)"/>
+  
+  <!-- Ajanta Chaitya Horseshoe Arch Portal -->
+  <g transform="translate(90, 30)">
+    <!-- Horseshoe Window (Chaitya Griha) -->
+    <path d="M90 20C45 20 15 55 15 100C15 145 35 170 35 210H145C145 170 165 145 165 100C165 55 135 20 90 20Z" stroke="#C29B38" stroke-width="2.5" fill="none"/>
+    <path d="M90 32C55 32 30 62 30 100C30 138 48 165 48 200H132C132 165 150 138 150 100C150 62 125 32 90 32Z" stroke="#C29B38" stroke-width="1" stroke-dasharray="3 2" fill="#F8F5EE" fill-opacity="0.04"/>
+    
+    <!-- Central Stupa / Kailash Finial -->
+    <path d="M90 60C78 60 70 70 70 82C70 95 90 120 90 120C90 120 110 95 110 82C110 70 102 60 90 60Z" fill="#C29B38"/>
+    <circle cx="90" cy="50" r="4" fill="#C29B38"/>
+    <path d="M60 135H120M50 155H130M45 175H135M40 195H140" stroke="#C29B38" stroke-width="1.2" opacity="0.6"/>
+  </g>
+  <text x="180" y="260" font-family="'ItalianPlateNo4', sans-serif" font-size="10" font-weight="700" fill="#C29B38" letter-spacing="4" text-anchor="middle">AJANTA &amp; ELLORA ARCHITECTURAL HERITAGE</text>
+</svg>
